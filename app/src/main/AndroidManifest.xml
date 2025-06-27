@@ -13,7 +13,10 @@
         android:theme="@style/Theme.CakeItEasy"
         tools:targetApi="31">
         <activity
-            android:name=".screens.LoginActivity"
+            android:name=".screens.BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".screens.MainActivity"
+            android:name=".screens.LoginActivity"
             android:exported="true" />
     </application>
 
