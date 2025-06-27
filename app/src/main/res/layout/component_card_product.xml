@@ -83,7 +83,6 @@
 
             <TextView
                 android:id="@+id/tvProductOldPriceSquare"
-                android:paintFlags="strikeThruText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="550.000 đ"
@@ -92,7 +91,8 @@
                 android:textSize="14sp"
                 android:fontFamily="@font/regular"
                 android:layout_marginBottom="8dp"
-                android:background="@drawable/striketext"/>
+                android:background="@drawable/striketext"
+                />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -106,12 +106,14 @@
                     android:layout_height="48dp"
                     android:src="@mipmap/ic_cart_64"
                     android:background="@color/white"
-                    android:layout_marginEnd="1dp"/>
+                    android:layout_marginEnd="1dp"
+                    android:contentDescription="Click this to add your product into your cart!"/>
 
                 <ImageButton
                     android:id="@+id/btnFavoriteSquare"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
+                    android:contentDescription="Click this to add the product into your wishlist!"
                     android:background="@color/white"
                     android:src="@mipmap/ic_favourite_64" />
             </LinearLayout>
@@ -225,14 +227,16 @@
                     android:layout_height="48dp"
                     android:background="@color/white"
                     android:src="@mipmap/ic_cart_64"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="Click this to add your product into your cart!"/>
 
                 <ImageButton
                     android:id="@+id/btnFavoriteHorizontal"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:background="@color/white"
-                    android:src="@mipmap/ic_favourite_64"/>
+                    android:src="@mipmap/ic_favourite_64"
+                    android:contentDescription="Click this to add the product into your wishlist!"/>
             </LinearLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
