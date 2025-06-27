@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
     <!-- Checkbox -->
     <CheckBox
         android:id="@+id/checkBox1"
-        android:gravity="center"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:gravity="center" />
 
     <!-- Quantity Controls -->
     <LinearLayout
@@ -38,4 +40,11 @@
             android:background="@color/white"
             android:src="@mipmap/ic_increase_quantity" />
     </LinearLayout>
+
+    <!-- Custom RadioButton -->
+    <RadioButton
+        android:id="@+id/radioAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true" />
 </LinearLayout>
