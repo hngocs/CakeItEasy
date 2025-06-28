@@ -37,6 +37,43 @@
     <color name="tab_grey">#B0B0B0</color>
     <color name="tab_indicator_background">#E0E0E0</color>
 
+    <!--Màu Homepage -->
+
+    <color name="home_background">#FBEAEC</color>
+    <color name="home_text_primary">#333333</color>
+    <color name="home_pink">#DD5369</color>
+    <color name="home_text_secondary">#888888</color>
+    <color name="home_card_background">#FFFFFF</color>
+    <color name="home_price_old">#A0A0A0</color>
+
+    <color name="voucher_green">#4CAF50</color>
+    <color name="voucher_card_background">#FFFFFF</color>
+    <color name="voucher_icon_bg_green">#E8F5E9</color>
+    <color name="voucher_icon_bg_pink">#FCE4EC</color>
+    <color name="voucher_orange">#FF9800</color>
+    <color name="voucher_icon_bg_orange">#FFF3E0</color>
+
+    <!--Màu NOtification Page -->
+    <color name="notif_app_bar_bg">#FBEAEC</color>
+    <color name="notif_app_bar_text">#DD5369</color>
+    <color name="notif_bg">#F7F7F7</color>
+    <color name="notif_search_bg">#FFFFFF</color>
+    <color name="notif_search_hint">#B3B3B3</color>
+    <color name="notif_search_stroke">#D9D9D9</color>
+
+    <color name="notif_title_text">#191919</color>
+    <color name="notif_subtitle_text">#808080</color>
+    <color name="notif_time_text">#4C4C4C</color>
+
+    <color name="notif_status_success">#00C263</color>
+    <color name="notif_status_success_bg">#E5FFF3</color>
+    <color name="notif_status_error">#E3171A</color>
+    <color name="notif_status_error_bg">#FDE8E8</color>
+    <color name="notif_status_promo">#FF8D00</color>
+    <color name="notif_status_promo_bg">#FFF4E5</color>
+    <color name="notif_unread_dot">#E3171A</color>
+
+
 
 
 </resources>
