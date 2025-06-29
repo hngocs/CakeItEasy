@@ -26,7 +26,8 @@
                 android:layout_height="150dp"
                 android:scaleType="centerCrop"
                 android:src="@mipmap/product01"
-                android:layout_marginBottom="12dp" />
+                android:layout_marginBottom="12dp"
+                app:shapeAppearanceOverlay="@style/ShapeAppearance.App.Round"/>
 
             <TextView
                 android:id="@+id/tvProductNameSquare"
